@@ -71,4 +71,9 @@ public class Restaurant {
         return name;
     }
 
+
+    public int getTotalPriceForSelectedItems(List<String> selectedItems){
+
+        return 0;
+    }
 }
