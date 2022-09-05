@@ -72,7 +72,7 @@ class RestaurantTest {
         List<String> selectedItems = new ArrayList<String>();
         selectedItems.add("Sweet corn soup");
         selectedItems.add("Vegetable lasagne");
-        assertEquals(388, restaurant.getTotalPriceForSelectedItems(null));
+        assertEquals(388, restaurant.getTotalPriceForSelectedItems(selectedItems));
     }
 
     //<<<<<<<<<<<<<<<<<<<<<<<TOTAL_ORDER_VALUE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
